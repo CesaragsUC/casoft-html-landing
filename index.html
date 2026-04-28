@@ -1,52 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CESAR AUGUSTO GADELHA SANTOS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
 
-        .bg-corporate {
-            background-color: #0D2556;
-        }
+    <!-- SEO & Verificação Meta/Facebook -->
+    <title>CESAR AUGUSTO GADELHA SANTOS | CA SOFT - Consultoria em Tecnologia da Informação</title>
+    <meta name="description" content="CESAR AUGUSTO GADELHA SANTOS (CA SOFT) - CNPJ 55.060.821/0001-05. Consultoria em Tecnologia da Informação, desenvolvimento de software personalizado, aplicações móveis e Cloud & DevOps. Curitiba, PR.">
+    <meta name="keywords" content="CA SOFT, CESAR AUGUSTO GADELHA SANTOS, consultoria tecnologia, software personalizado, Curitiba">
+    <meta name="author" content="CESAR AUGUSTO GADELHA SANTOS">
+    <meta name="robots" content="index, follow">
 
-        .text-corporate {
-            color: #0D2556;
-        }
-    </style>
+    <!-- Open Graph -->
+    <meta property="og:title" content="CESAR AUGUSTO GADELHA SANTOS | CA SOFT">
+    <meta property="og:description" content="Consultoria em Tecnologia da Informação. CNPJ: 55.060.821/0001-05. Curitiba, PR.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.casoft.com.br">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Verificação Meta/Facebook -->
+    <meta name="facebook-domain-verification" content="9b5qegiijhf97t9vw5x6u5ey8os0tx" />
+    <meta name="facebook-domain-verification" content="hgowjcdftnwvij2fmg4bjy18sdrw31" />
+
+    <!-- Schema.org JSON-LD — crítico para rastreadores da Meta/Google identificarem a empresa -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CESAR AUGUSTO GADELHA SANTOS",
+      "alternateName": "CA SOFT",
+      "legalName": "CESAR AUGUSTO GADELHA SANTOS",
+      "taxID": "55.060.821/0001-05",
+      "description": "Consultoria em tecnologia da informação, desenvolvimento de software personalizado, aplicações móveis e Cloud & DevOps.",
+      "url": "https://www.casoft.com.br",
+      "email": "cesar.santos@casoft.com.br",
+      "telephone": "+55-41-96987333",
+      "foundingDate": "2024-05-09",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Bom Jesus, 212, Sala 1904, Andar 19, Cond AR 3000 - Cabral Cor",
+        "addressLocality": "Curitiba",
+        "addressRegion": "PR",
+        "postalCode": "80035-010",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -25.4064,
+        "longitude": -49.2654
+      },
+      "areaServed": "BR",
+      "founder": {
+        "@type": "Person",
+        "name": "Cesar Augusto Gadelha Santos"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-41-96987333",
+        "email": "cesar.santos@casoft.com.br",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese"
+      }
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <meta name="facebook-domain-verification" content="9b5qegiijhf97t9vw5x6u5ey8os0tx" />
-    <meta name="facebook-domain-verification" content="hgowjcdftnwvij2fmg4bjy18sdrw31" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .bg-corporate { background-color: #0D2556; }
+        .text-corporate { color: #0D2556; }
+        .border-corporate { border-color: #0D2556; }
+    </style>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
 
     <nav class="bg-white shadow-md py-4 px-8 flex justify-between items-center fixed w-full top-0 z-50">
-        <div class="font-bold text-2xl text-corporate">CESAR AUGUSTO GADELHA SANTOS</div>
+        <div>
+            <div class="font-bold text-xl text-corporate" itemprop="legalName">CESAR AUGUSTO GADELHA SANTOS</div>
+            <div class="text-sm text-gray-500 font-medium">CA SOFT &mdash; CNPJ: 55.060.821/0001-05</div>
+        </div>
         <div class="hidden md:flex gap-6 font-medium text-gray-600">
             <a href="#inicio" class="hover:text-blue-600">Início</a>
             <a href="#solucoes" class="hover:text-blue-600">Soluções</a>
             <a href="#sobre" class="hover:text-blue-600">Sobre Nós</a>
-            <a href="#contato" class="hover:text-blue-600">Endereço</a>
+            <a href="#contato" class="hover:text-blue-600">Contato</a>
         </div>
     </nav>
 
-    <section id="inicio" class="bg-corporate text-white pt-32 pb-20 px-8 text-center mt-10">
+    <section id="inicio" class="bg-corporate text-white pt-40 pb-20 px-8 text-center">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6">Construímos Soluções Digitais para Elevar o seu Negócio</h1>
-            <p class="text-xl text-gray-300 mb-10">De software personalizado a aplicativos móveis inovadores, CESAR
-                AUGUSTO GADELHA SANTOS é
-                sua parceira global em transformação digital.</p>
-            <a href="#solucoes"
-                class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition">Descubra
-                Nossas Soluções</a>
+            <p class="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-4">CA SOFT &mdash; Consultoria em Tecnologia</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Construímos Soluções Digitais<br>para Elevar o seu Negócio</h1>
+            <p class="text-xl text-gray-300 mb-10">De software personalizado a aplicativos inovadores, a <strong>CESAR AUGUSTO GADELHA SANTOS</strong> é sua parceira global em transformação digital.</p>
+            <a href="#solucoes" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition">Descubra Nossas Soluções</a>
         </div>
     </section>
 
@@ -55,64 +106,111 @@
         <p class="text-gray-600 mb-12">Tecnologia sob medida para seus desafios.</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                <div class="text-4xl mb-4">💻</div>
                 <h3 class="text-xl font-bold mb-3 text-corporate">Software Personalizado</h3>
-                <p class="text-gray-600">Software escalável e robusto, projetado especificamente para os processos do
-                    seu negócio.</p>
+                <p class="text-gray-600">Software escalável e robusto, projetado especificamente para os processos do seu negócio.</p>
             </div>
             <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                <div class="text-4xl mb-4">📱</div>
                 <h3 class="text-xl font-bold mb-3 text-corporate">Aplicações Móveis</h3>
-                <p class="text-gray-600">Aplicações intuitivas e poderosas para iOS e Android para se conectar com seus
-                    clientes.</p>
+                <p class="text-gray-600">Aplicações intuitivas e poderosas para iOS e Android para se conectar com seus clientes.</p>
             </div>
             <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-                <h3 class="text-xl font-bold mb-3 text-corporate">Cloud & DevOps</h3>
-                <p class="text-gray-600">Otimização de infraestrutura e implantação ágil para máxima eficiência e
-                    segurança.</p>
+                <div class="text-4xl mb-4">☁️</div>
+                <h3 class="text-xl font-bold mb-3 text-corporate">Cloud &amp; DevOps</h3>
+                <p class="text-gray-600">Otimização de infraestrutura e implantação ágil para máxima eficiência e segurança.</p>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="bg-white py-20 px-8">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center">
-            <div class="md:w-1/2">
-                <h2 class="text-3xl font-bold text-corporate mb-6">Onde Estamos</h2>
-                <div class="space-y-4 text-gray-700">
-                    <p><strong class="text-corporate">Razão Social:</strong> CESAR AUGUSTO GADELHA SANTOS</p>
-                    <p><strong class="text-corporate">CNPJ:</strong> 55.060.821/0001-05</p>
-                    <p><strong class="text-corporate">Endereço:</strong><br>
-                        R BOM JESUS 212<br>
-                        SALA 1904 ANDAR 19 COND AR 3000 - CABRAL COR<br>
-                        JUVEVÊ<br>
-                        CURITIBA<br>
-                        80.035-010<BR>
-                        PR
-                    </p>
-                    <p><strong class="text-corporate">Telefones:</strong> (41) 9698-7333/ (41) 9869-3575</p>
-                    <p><strong class="text-corporate">E-mail:</strong> CESAR.SANTOS@CASOFT.COM.BR</p>
+    <section id="sobre" class="bg-white py-20 px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-corporate mb-6">Sobre Nós</h2>
+            <p class="text-gray-600 text-lg leading-relaxed">
+                A <strong>CESAR AUGUSTO GADELHA SANTOS</strong>, nome fantasia <strong>CA SOFT</strong>, é uma microempresa brasileira de consultoria em tecnologia da informação, sediada em Curitiba, Paraná. Fundada em 2024, atua no desenvolvimento de soluções digitais personalizadas, automação de processos e infraestrutura em nuvem para empresas de todos os portes.
+        </div>
+    </section>
+
+    <!-- Seção de contato com dados EXATAMENTE iguais ao CNPJ — crítico para verificação da Meta -->
+    <section id="contato" class="py-20 px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-corporate mb-12 text-center">Informações da Empresa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold text-corporate mb-6 pb-3 border-b border-gray-100">Dados Cadastrais</h3>
+                    <div class="space-y-4 text-gray-700">
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Razão Social</span>
+                            <p class="font-semibold text-corporate">CESAR AUGUSTO GADELHA SANTOS</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Nome Fantasia</span>
+                            <p class="font-semibold">CA SOFT</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">CNPJ</span>
+                            <p class="font-semibold">55.060.821/0001-05</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Atividade Principal</span>
+                            <p>6204-0/00 &mdash; Consultoria em tecnologia da informação</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Porte</span>
+                            <p>Microempresa (ME)</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Situação Cadastral</span>
+                            <p class="text-green-600 font-semibold">ATIVA</p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold text-corporate mb-6 pb-3 border-b border-gray-100">Localização e Contato</h3>
+                    <div class="space-y-4 text-gray-700">
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Endereço</span>
+                            <address class="not-italic">
+                                <p>RUA BOM JESUS, 212</p>
+                                <p>SALA 1904, ANDAR 19, COND AR 3000 - CABRAL COR</p>
+                                <p>JUVEVÊ &mdash; CURITIBA &mdash; PR</p>
+                                <p>CEP: 80035-010</p>
+                            </address>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Telefone</span>
+                            <p><a href="tel:+554196987333" class="hover:text-blue-600">(41) 96987333</a></p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">E-mail</span>
+                            <p><a href="mailto:cesar.santos@casoft.com.br" class="hover:text-blue-600">CESAR.SANTOS@CASOFT.COM.BR</a></p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">Representante Legal</span>
+                            <p>CESAR AUGUSTO GADELHA SANTOS</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-
 
     <footer class="bg-corporate text-gray-300 py-10 text-center text-sm border-t border-blue-900">
         <div class="max-w-4xl mx-auto px-6">
-            <h3 class="text-white font-bold text-lg mb-2">CESAR AUGUSTO GADELHA SANTOS</h3>
-            <p class="mb-4">
-              R BOM JESUS 212<br>
-              SALA 1904 ANDAR 19 COND AR 3000 - CABRAL COR<br>
-              JUVEVÊ<br>
-              CURITIBA<br>
-              80.035-010<BR>
-              PR
-            </p>
-            <p class="mb-4">
-                &copy; 2026 CESAR AUGUSTO GADELHA SANTOS. Todos os direitos reservados.
-            </p>
-            <a href="privacidade.html" class="text-blue-400 hover:text-blue-300 underline font-medium">Política de
-                Privacidade</a>
+            <p class="text-white font-bold text-base mb-1">CESAR AUGUSTO GADELHA SANTOS</p>
+            <p class="text-blue-300 mb-3">CA SOFT &mdash; CNPJ: 55.060.821/0001-05</p>
+            <address class="not-italic mb-4 text-gray-400">
+                RUA BOM JESUS, 212, SALA 1904, ANDAR 19, COND AR 3000 - CABRAL COR<br>
+                JUVEVÊ &mdash; CURITIBA &mdash; PR &mdash; CEP 80035-010<br>
+                Tel: (41) 96987333 &mdash; CESAR.SANTOS@CASOFT.COM.BR
+            </address>
+            <p class="mb-3">&copy; 2026 CESAR AUGUSTO GADELHA SANTOS. Todos os direitos reservados.</p>
+            <a href="privacidade.html" class="text-blue-400 hover:text-blue-300 underline font-medium">Política de Privacidade</a>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
